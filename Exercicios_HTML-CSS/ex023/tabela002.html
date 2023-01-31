@@ -12,11 +12,17 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
 
         }
         thead{
             background-color: black;
             color: white;
+        }
+        thead > tr > th{
+            position:sticky ;
+            top: -1px;
+            background-color: black;
         }
         caption{
             font-size: 1em;
